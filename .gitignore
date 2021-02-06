@@ -2,4 +2,4 @@ venv
 .idea
 .coverage
 unittests.xml
-todobackend/db.sqlite3
+src/db.sqlite3

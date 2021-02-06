@@ -30,3 +30,5 @@ DATABASES = {
         },
     }
 }
+
+# docker run -d --name mysql1 -p 3306:3306 -e MYSQL_DATABASE=todobackend -e MYSQL_USER=todo -e MYSQL_PASSWORD=password -e MYSQL_RANDOM_ROOT_PASSWORD=1 mysql
