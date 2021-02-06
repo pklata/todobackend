@@ -1,2 +1,5 @@
-/venv
-/.idea
+venv
+.idea
+.coverage
+unittests.xml
+todobackend/db.sqlite3
