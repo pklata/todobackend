@@ -27,4 +27,5 @@ ENTRYPOINT ["test.sh"]
 CMD ["python", "manage.py", "test", "--noinput"]
 
 # Add application source
-COPY
+COPY src /application
+WORKDIR /application
