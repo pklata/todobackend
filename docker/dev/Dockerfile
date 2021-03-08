@@ -4,7 +4,7 @@ MAINTAINER Paweł Klata <pawelklata@gmail.com>
 
 # Install dev/build dependencies
 RUN apt-get update && \
-    apt-get install -qy libmysqlclient-dev
+    apt-get install -qy default-libmysqlclient-dev
 
 # Activate virtual environment and install wheel  support
 RUN . /appenv/bin/activate && \
