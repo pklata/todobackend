@@ -8,10 +8,11 @@ setup(
     include_package_data = True,
     scripts = ["manage.py"],
     install_requires = [
-        "djangorestframework==3.12.2"
-        "MySQL-python==1.0.2"
-        "Django==3.1.7"
-        "django-cors-headers==3.7.0"
+        "Django==3.1.7",
+        "django-cors-headers==3.7.0",
+        "djangorestframework==3.12.2",
+        "mysql-connector==2.2.9",
+        "PyMySQL==1.0.2"
     ],
     extras_require = {
         "test": [
@@ -19,7 +20,7 @@ setup(
             "coverage==5.4",
             "django-nose==1.4.7",
             "nose==1.3.7",
-            "pinocchio==0.4.2"
+            "pinocchio==0.4.2",
         ]
     }
 )
