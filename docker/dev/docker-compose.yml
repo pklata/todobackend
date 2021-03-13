@@ -1,3 +1,4 @@
+---
 test:
   build: ../../
   dockerfile: docker/dev/Dockerfile

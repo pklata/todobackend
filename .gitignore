@@ -4,3 +4,4 @@ venv
 unittests.xml
 src/db.sqlite3
 /src/todobackend/db.sqlite3
+target
