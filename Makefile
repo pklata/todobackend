@@ -33,3 +33,4 @@ clean:
 	docker-compose -f $(DEV_COMPOSE_FILE) rm -f
 	docker-compose -f $(REL_COMPOSE_FILE) kill
 	docker-compose -f $(REL_COMPOSE_FILE) rm -f
+	docker images -q -f dangling=true -f label=application=$(REPO_NAME) | xargs -I ARGS docker rmi -f ARGS
